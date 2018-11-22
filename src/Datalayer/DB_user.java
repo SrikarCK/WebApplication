@@ -23,6 +23,7 @@ public class DB_user {
         Statement stmt = null;
         String sql = "";
 
+        //try and catch
         try{
             //STEP 2: Register JDBC driver
             Class.forName("com.mysql.jdbc.Driver");
